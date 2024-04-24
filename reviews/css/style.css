@@ -1,0 +1,41 @@
+.btton {
+  border-radius: 16px;
+  background-color: #3a49c9;
+  color: white;
+  font-weight: bold;
+  padding: 8px 16px;
+  width: max-content;
+  cursor: pointer;
+  user-select: none;
+}
+
+#algin-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.row {
+  width: 70%;
+  background: linear-gradient(
+    to bottom right,
+    rgb(255, 255, 255),
+    rgba(58, 72, 201, 0.5)
+  );
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 16px;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  color: black;
+}
+
+.btton:hover {
+  background-color: #303dac;
+}
+
+.form-group label {
+  user-select: none;
+}
